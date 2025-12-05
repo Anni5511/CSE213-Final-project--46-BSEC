@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="anni.notificationsController">
+   <children>
+      <TextField fx:id="submissionReminderTextField" layoutX="184.0" layoutY="34.0" />
+      <TextField fx:id="policyUpdatesTextField" layoutX="184.0" layoutY="79.0" />
+      <TextField fx:id="newCircularsTextField" layoutX="184.0" layoutY="132.0" />
+      <Text layoutX="96.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="80.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="policy updates" />
+      <Text layoutX="82.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="new  circulars" />
+      <Text layoutX="107.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="96.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="63.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="submission reminder" />
+      <TextArea fx:id="approvalMessagesTectArea" layoutX="134.0" layoutY="207.0" prefHeight="69.0" prefWidth="200.0" text="approval messages&#10;" />
+      <Button layoutX="519.0" layoutY="331.0" mnemonicParsing="false" onAction="#handlebackButton" text="back" />
+   </children>
+</AnchorPane>

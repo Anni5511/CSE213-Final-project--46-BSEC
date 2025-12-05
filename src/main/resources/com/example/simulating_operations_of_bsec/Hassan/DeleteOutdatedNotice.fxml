@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.simulating_operations_of_bsec.DeleteOutdatedNoticeController">
+   <children>
+      <Label layoutX="133.0" layoutY="8.0" text="Manage Notices - Delete Outdated Records">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="128.0" opacity="0.55" text="• Current notices (less than 1 year) cannot be deleted" />
+      <Label layoutX="48.0" layoutY="103.0" opacity="0.5" text="• Outdated notices are highlighted in red" />
+      <Label layoutX="48.0" layoutY="78.0" opacity="0.5" text="• Select notices older than 1 year to delete" />
+      <Label layoutX="48.0" layoutY="48.0" text="Instructions:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" />
+      <Button fx:id="Deletebutton" layoutX="151.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleDeletebutton" style="-fx-background-color: red;" text="Delete Selected" />
+      <Button fx:id="Refreshbutton" layoutX="318.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleRefreshbutton" style="-fx-background-color: blue;" text="Refresh List" />
+      <Button fx:id="BacktoHomebutton" layoutX="254.0" layoutY="362.0" mnemonicParsing="false" onAction="#handleBacktoHomebutton" text="Back to Home" />
+      <TableView fx:id="noticesTableView" layoutX="47.0" layoutY="217.0" prefHeight="132.0" prefWidth="510.0">
+        <columns>
+          <TableColumn fx:id="Titlecol" prefWidth="181.60003662109375" text="Title" />
+          <TableColumn fx:id="Datecol" prefWidth="99.99993896484375" text="Date" />
+            <TableColumn fx:id="Agecol" prefWidth="71.2000732421875" text="Age" />
+            <TableColumn fx:id="Statuscol" prefWidth="74.4000244140625" text="Status" />
+            <TableColumn fx:id="CanDeletecol" prefWidth="84.800048828125" text="Can Delete" />
+        </columns>
+      </TableView>
+      <Separator layoutX="47.0" layoutY="38.0" prefHeight="5.0" prefWidth="510.0" />
+   </children>
+</AnchorPane>
