@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="anni.financialRecordsController">
+   <children>
+      <Button layoutX="228.0" layoutY="33.0" mnemonicParsing="false" onAction="#handleaddNewRecordButton" prefHeight="25.0" prefWidth="116.0" text="add new record" />
+      <TableView fx:id="financialRecordsTableView" layoutX="134.0" layoutY="91.0" prefHeight="131.0" prefWidth="304.0">
+        <columns>
+          <TableColumn fx:id="transactionIdColumn" prefWidth="75.0" text="transaction id" />
+          <TableColumn fx:id="dateColumn" prefWidth="75.0" text="date" />
+            <TableColumn fx:id="amountColumn" prefWidth="75.0" text="amount" />
+            <TableColumn fx:id="descriotipnColumn" prefWidth="75.0" text="description" />
+        </columns>
+      </TableView>
+      <Button layoutX="266.0" layoutY="245.0" mnemonicParsing="false" onAction="#handlesaveButton" text="save" />
+      <Label fx:id="processLabel" layoutX="272.0" layoutY="299.0" text="Label" />
+      <Button layoutX="265.0" layoutY="342.0" mnemonicParsing="false" onAction="#handlebackButton" text="back" />
+   </children>
+</AnchorPane>

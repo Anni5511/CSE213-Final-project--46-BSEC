@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="anni.apporoveCompanyPaymentsController">
+   <children>
+      <TableView fx:id="approveCompanyPaymentsTableView" layoutX="61.0" layoutY="22.0" prefHeight="200.0" prefWidth="421.0">
+        <columns>
+          <TableColumn fx:id="paymentsIdTablecolumn" prefWidth="89.99996948242188" text="payments id" />
+          <TableColumn fx:id="companyNameTableColumn" minWidth="9.333343505859375" prefWidth="94.66665649414062" text="company name" />
+            <TableColumn fx:id="amountTableColumn" prefWidth="83.33331298828125" text="amount" />
+            <TableColumn fx:id="purposeTablecolumn" prefWidth="72.0" text="purpose" />
+            <TableColumn fx:id="statusTableColumn" prefWidth="80.00002034505206" text="status" />
+        </columns>
+      </TableView>
+      <Button layoutX="95.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleapproveButton" text="approve" />
+      <Label fx:id="processLabel" layoutX="244.0" layoutY="234.0" text="Label" />
+      <Label fx:id="processLabel2" layoutX="111.0" layoutY="327.0" text="Label" />
+      <Button layoutX="520.0" layoutY="344.0" mnemonicParsing="false" onAction="#handlebackButton" text="back" />
+   </children>
+</AnchorPane>

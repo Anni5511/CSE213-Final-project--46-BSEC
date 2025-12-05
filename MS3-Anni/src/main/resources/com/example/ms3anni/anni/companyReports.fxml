@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="anni.companyReportsController">
+   <children>
+      <TextField fx:id="companyNameTextField" layoutX="91.0" layoutY="24.0" />
+      <TextField fx:id="reportTypeTextField" layoutX="91.0" layoutY="64.0" />
+      <Button layoutX="140.0" layoutY="148.0" mnemonicParsing="false" onAction="#handlesubmitButton" text="submit" />
+      <TextField fx:id="yearTextField" layoutX="91.0" layoutY="100.0" />
+      <Button layoutX="497.0" layoutY="341.0" mnemonicParsing="false" onAction="#handlebackButton" text="back" />
+      <Text layoutX="9.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="company name" />
+      <Text layoutX="9.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="report type" />
+      <Text layoutX="28.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="year" />
+      <Label layoutX="97.0" layoutY="341.0" />
+      <TextArea fx:id="descriptionTextArea" layoutX="80.0" layoutY="214.0" prefHeight="94.0" prefWidth="200.0" />
+      <Text layoutX="9.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="description" />
+      <Label fx:id="processlabel" layoutX="112.0" layoutY="333.0" text="Label" />
+   </children>
+</AnchorPane>

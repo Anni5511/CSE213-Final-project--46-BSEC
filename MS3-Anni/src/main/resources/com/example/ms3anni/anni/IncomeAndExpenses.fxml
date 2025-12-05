@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="anni.incomeAndExpensesController">
+   <children>
+      <TableView fx:id="incomeAndExpensesTableView" layoutX="14.0" layoutY="23.0" prefHeight="161.0" prefWidth="245.0">
+        <columns>
+          <TableColumn fx:id="incomeReportsTableColumn" prefWidth="122.66665649414062" text="income reports" />
+          <TableColumn fx:id="expenseReportTableColumn" prefWidth="122.0" text="expense report" />
+        </columns>
+      </TableView>
+      <ComboBox layoutX="62.0" layoutY="210.0" onAction="#handletimePeriodButton" prefWidth="150.0" promptText="time period" />
+      <TextField fx:id="spendingAndIncomeTrendsTextField" layoutX="62.0" layoutY="268.0" />
+      <Text layoutX="60.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="spending and income trends." />
+      <Button layoutX="85.0" layoutY="307.0" mnemonicParsing="false" onAction="#handledownloadButton" text="download" />
+      <Button layoutX="483.0" layoutY="347.0" mnemonicParsing="false" onAction="#handlebackButton" text="Button" />
+      <Label fx:id="processLabel" layoutX="92.0" layoutY="351.0" text="Label" />
+   </children>
+</AnchorPane>
