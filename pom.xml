@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>MS3-Anni</artifactId>
+    <artifactId>Simulating_operations_of_BSEC</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>MS3-Anni</name>
+    <name>Simulating_operations_of_BSEC</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,9 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.ms3anni/com.example.ms3anni.HelloApplication</mainClass>
+                            <mainClass>
+                                com.example.simulating_operations_of_bsec/com.example.simulating_operations_of_bsec.HelloApplication
+                            </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
