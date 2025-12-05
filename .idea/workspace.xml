@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b229fee3-b774-452d-b127-cc09050534ef" name="Changes" comment="Merge branch 'main' of https://github.com/Anni5511/CSE213-Final-project--46-BSEC&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/module-info.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/AddNewPublicNotice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/AddNewSupportTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/AssignTickettoTechnician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/DeleteOutdatedNotice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/DeleteTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/EditExistingNotice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/ExportPublicNoticeReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/FilterTicketsbyStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/GenerateITReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/PublishAnnouncement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/SearchNotices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/UpdateTicketStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/ViewAllNotices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/ViewFAQs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/ViewSystemNotifications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/simulating_operations_of_bsec/ITSupportOfficerDashboardcontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/simulating_operations_of_bsec/PublicInformationDeskOfficerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/ITSupportOfficerDashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/PublicInformationDeskOfficer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/simulating_operations_of_bsec/Launcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/simulating_operations_of_bsec/UpdateTicketStatusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/simulating_operations_of_bsec/UpdateTicketStatusController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/AddNewPublicNotice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/AddNewPublicNotice.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/UpdateTicketStatus.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/UpdateTicketStatus.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/ViewAllNotices.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/ViewAllNotices.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/AddNewPublicNotice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/AddNewPublicNotice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,20 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.JavaFX",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b229fee3-b774-452d-b127-cc09050534ef" name="Changes" comment="" />
@@ -118,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764936724050</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'main' of https://github.com/Anni5511/CSE213-Final-project--46-BSEC&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/module-info.java">
+      <option name="closed" value="true" />
+      <created>1764954972969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764954972969</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
