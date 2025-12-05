@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b229fee3-b774-452d-b127-cc09050534ef" name="Changes" comment="Push" />
+    <list default="true" id="b229fee3-b774-452d-b127-cc09050534ef" name="Changes" comment="Merge branch 'main' of https://github.com/Anni5511/CSE213-Final-project--46-BSEC&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/module-info.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/AddNewPublicNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/AddNewSupportTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/AssignTickettoTechnician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/DeleteOutdatedNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/DeleteTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/EditExistingNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/ExportPublicNoticeReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/FilterTicketsbyStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/GenerateITReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/PublishAnnouncement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/SearchNotices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/UpdateTicketStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/ViewAllNotices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/ViewFAQs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/ViewSystemNotifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/simulating_operations_of_bsec/ITSupportOfficerDashboardcontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/simulating_operations_of_bsec/PublicInformationDeskOfficerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/ITSupportOfficerDashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/PublicInformationDeskOfficer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/simulating_operations_of_bsec/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/simulating_operations_of_bsec/UpdateTicketStatusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/simulating_operations_of_bsec/UpdateTicketStatusController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/AddNewPublicNotice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/AddNewPublicNotice.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/UpdateTicketStatus.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/UpdateTicketStatus.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/ViewAllNotices.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/simulating_operations_of_bsec/Hassan/ViewAllNotices.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,7 +79,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "Rebasing main",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.JavaFX",
@@ -77,12 +102,29 @@
       <option name="project" value="LOCAL" />
       <updated>1764935974594</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Push">
+      <option name="closed" value="true" />
+      <created>1764936445174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764936445174</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge branch 'main' of https://github.com/Anni5511/CSE213-Final-project--46-BSEC&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/module-info.java">
+      <option name="closed" value="true" />
+      <created>1764936724050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764936724050</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;pom.xml&#10;#&#9;src/main/java/module-info.java" />
     <MESSAGE value="Push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push" />
+    <MESSAGE value="Merge branch 'main' of https://github.com/Anni5511/CSE213-Final-project--46-BSEC&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/module-info.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/Anni5511/CSE213-Final-project--46-BSEC&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/module-info.java" />
   </component>
 </project>

@@ -13,11 +13,15 @@ public class UpdateTicketStatusController
     @javafx.fxml.FXML
     private TableColumn Descriptioncol;
     @javafx.fxml.FXML
-    private Label SelectedTickettextfield;
-    @javafx.fxml.FXML
-    private Label NewStatuscombobox;
-    @javafx.fxml.FXML
     private Button Refreshlistbutton;
+    @javafx.fxml.FXML
+    private Button BackToHomebutton;
+    @javafx.fxml.FXML
+    private TableView supportticketstableview;
+    @javafx.fxml.FXML
+    private TextField SelectedTickettextfield;
+    @javafx.fxml.FXML
+    private ComboBox NewStatuscombobox;
 
     @javafx.fxml.FXML
     public void initialize() {
@@ -29,5 +33,9 @@ public class UpdateTicketStatusController
 
     @javafx.fxml.FXML
     public void handleUpdateStatusbutton(ActionEvent actionEvent) {
+    }
+
+    @javafx.fxml.FXML
+    public void handleBackToHomebutton(ActionEvent actionEvent) {
     }
 }

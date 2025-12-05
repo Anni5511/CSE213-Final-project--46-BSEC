@@ -17,16 +17,16 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label fx:id="NewStatuscombobox" layoutX="54.0" layoutY="163.0" text="New Status:" />
-      <Label fx:id="SelectedTickettextfield" layoutX="54.0" layoutY="126.0" text="Selected Ticket:" />
+      <Label layoutX="54.0" layoutY="163.0" text="New Status:" />
+      <Label layoutX="54.0" layoutY="126.0" text="Selected Ticket:" />
       <Label layoutX="52.0" layoutY="83.0" text="Update Ticket Status" />
       <Label layoutX="54.0" layoutY="273.0" text="Support Tickets (Select a ticket to update):" />
       <Separator layoutX="44.0" layoutY="54.0" prefHeight="18.0" prefWidth="517.0" />
-      <TextField layoutX="151.0" layoutY="122.0" />
-      <ComboBox layoutX="151.0" layoutY="159.0" prefWidth="150.0" />
+      <TextField fx:id="SelectedTickettextfield" layoutX="151.0" layoutY="122.0" />
+      <ComboBox fx:id="NewStatuscombobox" layoutX="151.0" layoutY="159.0" prefWidth="150.0" />
       <Button fx:id="UpdateStatusbutton" layoutX="56.0" layoutY="212.0" mnemonicParsing="false" onAction="#handleUpdateStatusbutton" style="-fx-background-color: green;" text="Update Status" />
       <Button fx:id="Refreshlistbutton" layoutX="248.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleRefreshlistbutton" style="-fx-background-color: blue;" text="Refresh List" />
-      <TableView layoutX="52.0" layoutY="304.0" prefHeight="177.0" prefWidth="495.0">
+      <TableView fx:id="supportticketstableview" layoutX="52.0" layoutY="304.0" prefHeight="177.0" prefWidth="495.0">
         <columns>
           <TableColumn fx:id="TicketIDcol" prefWidth="75.0" text="Ticket ID" />
           <TableColumn fx:id="Descriptioncol" prefWidth="201.60003662109375" text="Description" />
@@ -34,6 +34,6 @@
             <TableColumn fx:id="CreatedDatecol" prefWidth="91.99993896484375" text="Created Date" />
         </columns>
       </TableView>
-      <Button layoutX="454.0" layoutY="494.0" mnemonicParsing="false" text="Back To HOme" />
+      <Button fx:id="BackToHomebutton" layoutX="454.0" layoutY="494.0" mnemonicParsing="false" onAction="#handleBackToHomebutton" text="Back To Home" />
    </children>
 </AnchorPane>
