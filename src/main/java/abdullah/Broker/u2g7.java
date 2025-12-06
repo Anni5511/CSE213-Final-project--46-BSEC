@@ -1,10 +1,12 @@
 package abdullah.Broker;
 
 import abdullah.HelloApplication;
+import abdullah.modelclasses.DailyTradeReport;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 
 public class u2g7
@@ -12,7 +14,7 @@ public class u2g7
     @javafx.fxml.FXML
     private Label lblMessage;
     @javafx.fxml.FXML
-    private TableView dailyReportTable;
+    private TableView<DailyTradeReport> dailyReportTable;
     @javafx.fxml.FXML
     private Button btnExport;
     @javafx.fxml.FXML
@@ -20,12 +22,14 @@ public class u2g7
     @javafx.fxml.FXML
     private Button btnGenerate;
     @javafx.fxml.FXML
-    private TableColumn totaltradesCol;
+    private TableColumn<DailyTradeReport,Integer> totaltradesCol;
     @javafx.fxml.FXML
-    private TableColumn totaltradevalueCol;
+    private TableColumn<DailyTradeReport,Integer> totaltradevalueCol;
 
     @javafx.fxml.FXML
     public void initialize() {
+        totaltradesCol.setCellValueFactory(new PropertyValueFactory<>("totalTrades"));
+        totaltradevalueCol.setCellValueFactory(new PropertyValueFactory<>("totalTradeValue"));
     }
 
     @javafx.fxml.FXML

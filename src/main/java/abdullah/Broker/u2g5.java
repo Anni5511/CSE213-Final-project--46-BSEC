@@ -1,10 +1,12 @@
 package abdullah.Broker;
 
 import abdullah.HelloApplication;
+import abdullah.modelclasses.Client;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 
 public class u2g5
@@ -14,7 +16,7 @@ public class u2g5
     @javafx.fxml.FXML
     private Button btnApprove;
     @javafx.fxml.FXML
-    private TableView clientRequestsTable;
+    private TableView<Client> clientRequestsTable;
     @javafx.fxml.FXML
     private Button btnViewDetails;
     @javafx.fxml.FXML
@@ -22,16 +24,20 @@ public class u2g5
     @javafx.fxml.FXML
     private TextField txtRejectReason;
     @javafx.fxml.FXML
-    private TableColumn statusCol;
+    private TableColumn<Client,String> statusCol;
     @javafx.fxml.FXML
     private TableColumn documentsCol;
     @javafx.fxml.FXML
-    private TableColumn boidCol;
+    private TableColumn<Client,String> boidCol;
     @javafx.fxml.FXML
-    private TableColumn clientnameCol;
+    private TableColumn<Client,String> clientnameCol;
 
     @javafx.fxml.FXML
     public void initialize() {
+        clientnameCol.setCellValueFactory(new PropertyValueFactory<>("name"));
+        boidCol.setCellValueFactory(new PropertyValueFactory<>("boid"));
+        statusCol.setCellValueFactory(new PropertyValueFactory<>("status"));
+        documentsCol.setCellValueFactory(new PropertyValueFactory<>("documents"));
     }
 
     @javafx.fxml.FXML

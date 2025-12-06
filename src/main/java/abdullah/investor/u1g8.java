@@ -14,22 +14,30 @@ public class u1g8
     @javafx.fxml.FXML
     private TextField txtFilePath;
     @javafx.fxml.FXML
-    private Button btnSubmitReport;
-    @javafx.fxml.FXML
     private Label lblMessage;
     @javafx.fxml.FXML
     private TextField txtYear;
-    @javafx.fxml.FXML
-    private Button btnBrowseFile;
     @javafx.fxml.FXML
     private TextField txtCompanyName;
 
     @javafx.fxml.FXML
     public void initialize() {
+
     }
 
     @javafx.fxml.FXML
     public void submitReportAction(ActionEvent actionEvent) {
+        String companyName = txtCompanyName.getText();
+        String yearStr = txtYear.getText();
+        String filePath = txtFilePath.getText();
+
+        if (companyName.isEmpty() || yearStr.isEmpty() || filePath.isEmpty()) {
+            //showAlert("Error", "Please fill all fields and select a file.");
+            return;
+        }
+        txtCompanyName.clear();
+        txtYear.clear();
+        txtFilePath.clear();
     }
 
     @javafx.fxml.FXML

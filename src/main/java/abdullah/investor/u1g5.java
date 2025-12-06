@@ -1,5 +1,6 @@
 package abdullah.investor;
 
+import abdullah.HelloApplication;
 import abdullah.modelclasses.PortfolioItem;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -47,15 +48,15 @@ public class u1g5
 
     @javafx.fxml.FXML
     public void backButtonAction(ActionEvent actionEvent) {
-        try {
-            Parent root = FXMLLoader.load(getClass().getResource("dashboard.fxml"));
-            Stage stage = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
-            stage.setScene(new Scene(root));
-            stage.show();
-
-        } catch (Exception e) {
-            lblMessage.setText("Failed to go back!");
-            e.printStackTrace();
+        try{
+            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("InvestorDashboard.fxml"));
+            Scene scene = new Scene(fxmlLoader.load());
+            Stage nextStage = new Stage();
+            nextStage.setTitle("InvestorDashboard");
+            nextStage.setScene(scene);
+            nextStage.show();
+        }
+        catch (Exception e){
         }
     }
 }

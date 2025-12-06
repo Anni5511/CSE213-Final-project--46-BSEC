@@ -1,10 +1,12 @@
 package abdullah.Broker;
 
 import abdullah.HelloApplication;
+import abdullah.modelclasses.Client;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 
 public class u2g8
@@ -18,18 +20,22 @@ public class u2g8
     @javafx.fxml.FXML
     private TextField txtSearch;
     @javafx.fxml.FXML
-    private TableView searchResultsTable;
+    private TableView<Client> searchResultsTable;
     @javafx.fxml.FXML
-    private TableColumn statusCol;
+    private TableColumn<Client,String> statusCol;
     @javafx.fxml.FXML
-    private TableColumn nameCol;
+    private TableColumn<Client,String> nameCol;
     @javafx.fxml.FXML
-    private TableColumn emailCol;
+    private TableColumn<Client,String> emailCol;
     @javafx.fxml.FXML
-    private TableColumn boidCol;
+    private TableColumn<Client,String> boidCol;
 
     @javafx.fxml.FXML
     public void initialize() {
+        nameCol.setCellValueFactory(new PropertyValueFactory<>("name"));
+        boidCol.setCellValueFactory(new PropertyValueFactory<>("boid"));
+        emailCol.setCellValueFactory(new PropertyValueFactory<>("email"));
+        statusCol.setCellValueFactory(new PropertyValueFactory<>("status"));
     }
 
     @javafx.fxml.FXML

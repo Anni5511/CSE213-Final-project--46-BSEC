@@ -1,5 +1,6 @@
 package abdullah.investor;
 
+import abdullah.HelloApplication;
 import abdullah.modelclasses.Stock;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -23,18 +24,21 @@ public class u1g4
 
     @javafx.fxml.FXML
     public void initialize() {
-        comboOwnedStocks.getItems().addAll("GrameenPhone","robi","Bashundahara Ltd");
+
+        //comboOwnedStocks.getItems().addAll("GrameenPhone","robi","Bashundahara Ltd");
     }
 
     @javafx.fxml.FXML
     public void backDashboardAction(ActionEvent actionEvent) {
-        try {
-            Parent root = FXMLLoader.load(getClass().getResource("InvestorDashboard.fxml"));
-            Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-            stage.setScene(new Scene(root));
-            stage.show();
-        } catch (IOException e) {
-            e.printStackTrace();
+        try{
+            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("InvestorDashboard.fxml"));
+            Scene scene = new Scene(fxmlLoader.load());
+            Stage nextStage = new Stage();
+            nextStage.setTitle("InvestorDashboard");
+            nextStage.setScene(scene);
+            nextStage.show();
+        }
+        catch (Exception e){
         }
     }
 
