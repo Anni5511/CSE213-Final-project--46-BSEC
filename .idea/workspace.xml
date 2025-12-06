@@ -5,23 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b229fee3-b774-452d-b127-cc09050534ef" name="Changes" comment="Push">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/companyRepresentative/BSECQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/companyRepresentative/CompanyListing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/companyRepresentative/Notifications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/companyRepresentative/PayFees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/companyRepresentative/checkSubmissionStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/companyRepresentative/submitCompanyReports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/companyRepresentative/updateCompanyInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/financeManager/ApproveCompanyPayments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/financeManager/FinancialRecords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/financeManager/FinancialReports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/financeManager/FinancialSecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/financeManager/IncomeandExpenses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/financeManager/MonthlyBudget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/financeManager/PendingPayments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ms3anni/financeManager/TaxAndDeductions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764930013035</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Push">
+      <option name="closed" value="true" />
+      <created>1764948887304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764948887304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
