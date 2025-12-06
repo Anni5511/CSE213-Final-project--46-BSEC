@@ -1,5 +1,11 @@
 package com.example.simulating_operations_of_bsec;
 
+import javafx.event.ActionEvent;
+import javafx.scene.control.Button;
+import javafx.scene.control.DatePicker;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+
 public class GenerateITReportcontroller
 {
     @javafx.fxml.FXML

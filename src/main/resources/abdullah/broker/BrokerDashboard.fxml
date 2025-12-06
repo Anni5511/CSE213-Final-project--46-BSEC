@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="abdullah.Broker.BrokerDashboard">
+   <children>
+       <Label layoutX="260.0" layoutY="46.0" style="-fx-font-size: 15px;" text="Broker Panel">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+       <Button layoutX="72.0" layoutY="96.0" onAction="#u2g1ActionButton" prefWidth="180" text="Pending Accounts" />
+       <Button layoutX="72.0" layoutY="158.0" onAction="#u2g2ActionButton" prefWidth="180" text="Pending Orders" />
+       <Button layoutX="72.0" layoutY="214.0" onAction="#u2g3ActionButton" prefWidth="180" text="My Profile" />
+       <Button layoutX="72.0" layoutY="279.0" onAction="#u2g4ActionButton" prefWidth="180" text="Commission Report" />
+       <Button layoutX="348.0" layoutY="96.0" onAction="#u2g5ActionButton" prefWidth="180" text="Client Requests" />
+       <Button layoutX="348.0" layoutY="158.0" onAction="#u2g6ActionButton" prefWidth="180" text="Executed Trades" />
+       <Button layoutX="348.0" layoutY="214.0" onAction="#u2g7ActionButton" prefWidth="180" text="Daily Report" />
+       <Button layoutX="348.0" layoutY="279.0" onAction="#u2g8ActionButton" prefWidth="180" text="Search Client" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="abdullah.investor.u1g3"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <children>
+        <Label layoutX="220" layoutY="20" text="Buy Shares">
+            <font><Font size="22"/></font>
+        </Label>
+
+        <Label layoutX="50" layoutY="80" text="Stock Code:"/>
+        <TextField fx:id="txtStockCode" layoutX="180" layoutY="75" prefWidth="200"/>
+
+        <Label layoutX="50" layoutY="120" text="Quantity:"/>
+        <TextField fx:id="txtQuantity" layoutX="180" layoutY="115" prefWidth="200"/>
+
+        <Label layoutX="50" layoutY="160" text="Price:"/>
+        <TextField fx:id="txtPrice" layoutX="180" layoutY="155" prefWidth="200"/>
+
+        <Button fx:id="btnPlaceBuyOrder" layoutX="180" layoutY="210"
+                text="Place Buy Order" onAction="#placeBuyOrderAction"/>
+        <Button fx:id="btnBackDashboard" layoutX="320" layoutY="210"
+                text="Back to Dashboard" onAction="#backDashboardAction"/>
+
+        <Label fx:id="lblConfirmationMessage" layoutX="180" layoutY="260"
+               textFill="green" visible="false"/>
+    </children>
+
+</AnchorPane>

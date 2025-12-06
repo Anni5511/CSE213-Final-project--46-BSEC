@@ -8,10 +8,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="426.0" prefWidth="471.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.simulating_operations_of_bsec.AddNewPublicNoticeController">
    <children>
-      <Label layoutX="150.0" layoutY="14.0" text="BSEC - Dashboard">
+      <Label layoutX="138.0" layoutY="14.0" text="BSEC - Noticeboard">
          <font>
             <Font size="24.0" />
          </font>
@@ -19,12 +18,12 @@
       <Label layoutX="147.0" layoutY="58.0" text="Public Information Desk Officer Panel" />
       <VBox layoutX="31.0" layoutY="166.0" prefHeight="213.0" prefWidth="358.0">
          <children>
-            <ListView fx:id="noticeListView" prefHeight="200.0" prefWidth="341.0" />
+            <ListView fx:id="noticeListView" prefHeight="200.0" prefWidth="374.0" />
          </children>
       </VBox>
       <Button fx:id="AddNewNotice" layoutX="184.0" layoutY="95.0" mnemonicParsing="false" onAction="#handleAddNewNoticebutton" style="-fx-background-color: Green;" text="Add New Notice" />
       <Label layoutX="31.0" layoutY="141.0" text="Recent Public Notices:" />
       <Separator layoutX="23.0" layoutY="132.0" prefHeight="0.0" prefWidth="427.0" />
-      <Button fx:id="Back" layoutX="210.0" layoutY="386.0" mnemonicParsing="false" onAction="#handlebackbutton" text="Back" />
+      <Button fx:id="Back" layoutX="190.0" layoutY="380.0" mnemonicParsing="false" onAction="#handlebackbutton" text="Back to Home" />
    </children>
 </AnchorPane>
