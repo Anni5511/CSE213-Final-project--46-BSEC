@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="abdullah.investor.u1g2">
+
+    <children>
+
+        <Label layoutX="200" layoutY="20" text="Market Snapshot">
+            <font><Font size="24" /></font>
+        </Label>
+
+        <TextField fx:id="searchTF" layoutX="50" layoutY="80" prefWidth="300" promptText="Search stock..." />
+
+        <Button layoutX="370" layoutY="80" onAction="#searchButtonAction" text="Search" />
+
+        <TableView fx:id="stockTable" layoutX="50" layoutY="130" prefHeight="200" prefWidth="500">
+            <columns>
+                <TableColumn fx:id="stocknameCol" prefWidth="200" text="Stock Name" />
+                <TableColumn fx:id="codeCol" prefWidth="150" text="Code" />
+                <TableColumn fx:id="priceCol" prefWidth="150" text="Price" />
+            </columns>
+        </TableView>
+
+        <Label fx:id="historyLabel" layoutX="50" layoutY="340" text="Price History" />
+
+        <ListView fx:id="historyList" layoutX="50" layoutY="370" prefHeight="80" prefWidth="500" />
+
+        <Button layoutX="230" layoutY="460" onAction="#backButtonAction" text="Back to Dashboard" />
+
+    </children>
+</AnchorPane>

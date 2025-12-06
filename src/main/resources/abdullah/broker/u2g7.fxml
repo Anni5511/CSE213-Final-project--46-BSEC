@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="abdullah.Broker.u2g7">
+
+
+    <children>
+        <Label layoutX="200" layoutY="20" text="Daily Trade Report">
+            <font><Font size="22" /></font>
+        </Label>
+
+        <Label layoutX="50" layoutY="70" text="Select Date:" />
+        <DatePicker fx:id="datePicker" layoutX="150" layoutY="65" prefWidth="200" />
+        <Button fx:id="btnGenerate" layoutX="370" layoutY="65" onAction="#generateReportAction" text="Generate Report" />
+
+        <TableView fx:id="dailyReportTable" layoutX="50" layoutY="110" prefHeight="220" prefWidth="500">
+            <columns>
+                <TableColumn fx:id="totaltradesCol" prefWidth="200" text="Total Trades" />
+                <TableColumn fx:id="totaltradevalueCol" prefWidth="300" text="Total Trade Value" />
+            </columns>
+        </TableView>
+
+        <Button fx:id="btnExport" layoutX="200" layoutY="350" onAction="#exportReportAction" text="Export Report" />
+
+        <Label fx:id="lblMessage" layoutX="150" layoutY="380" textFill="green" visible="false" />
+      <Button layoutX="343.0" layoutY="351.0" mnemonicParsing="false" onAction="#backButtonAction" text="back" />
+    </children>
+
+</AnchorPane>

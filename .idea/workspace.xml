@@ -5,7 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b229fee3-b774-452d-b127-cc09050534ef" name="Changes" comment="Merge branch 'main' of https://github.com/Anni5511/CSE213-Final-project--46-BSEC&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/module-info.java">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/AddNewPublicNotice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hssanmodelclass/AddNewPublicNotice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/BrokerDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/Broker/BrokerDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/InvestorDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/investor/InvestorDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/logincontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/logincontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/modelclasses/Broker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/modelclasses/Broker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/modelclasses/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/modelclasses/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/modelclasses/CommissionReportItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/modelclasses/CommissionReportItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/modelclasses/DailyTradeReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/modelclasses/DailyTradeReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/modelclasses/ExecutedTrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/modelclasses/ExecutedTrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/modelclasses/Investor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/modelclasses/Investor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/modelclasses/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/modelclasses/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/modelclasses/PortfolioItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/modelclasses/PortfolioItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/modelclasses/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/modelclasses/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/modelclasses/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/modelclasses/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/modelclasses/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/modelclasses/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/modelclasses/WatchlistItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/modelclasses/WatchlistItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u1g1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/investor/u1g1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u1g2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/investor/u1g2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u1g3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/investor/u1g3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u1g4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/investor/u1g4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u1g5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/investor/u1g5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u1g6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/investor/u1g6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u1g7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/investor/u1g7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u1g8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/investor/u1g8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u2g1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/Broker/u2g1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u2g2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/Broker/u2g2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u2g3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/Broker/u2g3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u2g4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/Broker/u2g4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u2g5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/Broker/u2g5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u2g6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/Broker/u2g6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u2g7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/Broker/u2g7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bsec/u2g8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abdullah/Broker/u2g8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/BrokerDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/broker/BrokerDashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/InvestorDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/investor/InvestorDashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u1g1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/investor/u1g1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u1g2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/investor/u1g2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u1g3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/investor/u1g3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u1g4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/investor/u1g4.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u1g5.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/investor/u1g5.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u1g6.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/investor/u1g6.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u1g7.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/investor/u1g7.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u1g8.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/investor/u1g8.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u2g1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/broker/u2g1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u2g2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/broker/u2g2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u2g3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/broker/u2g3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u2g4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/broker/u2g4.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u2g5.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/broker/u2g5.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u2g6.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/broker/u2g6.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u2g7.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/broker/u2g7.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/com/example/bsec/u2g8.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/abdullah/broker/u2g8.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +81,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Anni5511/CSE213-Final-project--46-BSEC.git&quot;,
-    &quot;accountId&quot;: &quot;ab1fdc67-c02d-41ae-9eb0-df103134a480&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Hossain-mohammod-Abdullah"
   }
-}</component>
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Anni5511/CSE213-Final-project--46-BSEC.git",
+    "accountId": "335efbdd-2cfa-4b85-bd9e-b68e4700d47e"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -63,6 +122,16 @@
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/abdullah/investor" />
+      <recent name="$PROJECT_DIR$/src/main/resources/abdullah/broker" />
+      <recent name="$PROJECT_DIR$/src/main/resources/abdullah" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b229fee3-b774-452d-b127-cc09050534ef" name="Changes" comment="" />
